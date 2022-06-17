@@ -1,0 +1,17 @@
+.Button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: var(--color-light);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  gap: 10px;
+}
+
+.Button:hover {
+  transform: translateY(-3px);
+}
